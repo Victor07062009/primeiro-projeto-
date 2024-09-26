@@ -18,7 +18,7 @@ function draw() {
   for(let contador in circuloX) {
     circle(circuloX[contador], circuloY[contador], 50);    
     circuloX[contador]+= random(0,3);
-    circuloY[contador]+= random(-3,3); 
+    circuloY[contador]+= random(-3,3); 90a
     
     if(circuloX[contador] >= width){
       circuloX[contador] = 0;
